@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#calculator{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+}
+
+#calculatorDisplay{
+    width: 350px;
+    height: 100px;
+}
+
+#numpad{
+    display: flex;
+    flex-wrap: wrap;
+    width: 410px;
+    justify-content: center;
+}
+
+#numpad > div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
